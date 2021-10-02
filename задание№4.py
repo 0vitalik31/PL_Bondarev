@@ -1,8 +1,5 @@
-n=int(input("Введите n"))
-t=0
-k=0
-while t<n:
-    b=int(input("введите число"))
-    k=k+b
-    t+=1
-print(k)
+n = int(input("Введите число n"))
+a = 0
+for i in range(n):
+    a += int(input("Введите значение"))
+print(a)
